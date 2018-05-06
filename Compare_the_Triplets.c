@@ -9,3 +9,26 @@ function solve(a0, a1, a2, b0, b1, b2) {
 //define variables
 var A = 0;  //A=Alice's comparison score
 var B= 0;   //B= Bob's comparison score
+
+//if else statement that compares a0 and b0
+      if (a0 > b0) {
+            A += 1;
+       }
+      else if (a0 < b0){
+            B += 1;
+       }
+
+//if else statement that compares a1 and b1
+      if (a1 > b1) {
+           A += 1;
+       }
+       else if (a1 < b1){
+            B += 1;
+        }
+//if else statement that compares a2 and b2
+       if (a2 > b2) {
+             A += 1;
+      }
+      else if (a2 < b2){
+            B += 1;
+        }
