@@ -32,3 +32,9 @@ var B= 0;   //B= Bob's comparison score
       else if (a2 < b2){
             B += 1;
         }
+
+var scores = [ A, B ];  //Array that contains Alice's and Bob's scores
+
+console.log(scores.join());   //Returns the comparison scores
+
+    }
